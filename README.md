@@ -37,27 +37,27 @@ Highlight active elements with different colors to show comparisons and swaps.
 Offer intuitive controls for generating new arrays or starting a new sort.
 
 # Code Explanation
-1. Main GUI Setup
+> Main GUI Setup
 The GUI is created using Tkinter, with the following components:
 A frame for user inputs like algorithm selection, sorting speed, and array parameters.
 A canvas to display the bars representing the array elements.
 
-2. Array Generation
+> Array Generation
 Random arrays are generated using the random module. Users can specify:
 The lower and upper bounds of the array values.
 The size of the array.
 
-3. Sorting Algorithms
+> Sorting Algorithms
 Each sorting algorithm is implemented as a function that:
 Operates on the array.
 Updates the visual representation dynamically using the drawrectangle function.
 
-4. Dynamic Visualization
+> Dynamic Visualization
 The drawrectangle function uses the Tkinter canvas to draw bars representing array elements. Bars are colored to indicate the state of the algorithm:
 Red: Indicates the elements currently being compared.
 Blue: Indicates unsorted elements.
 
-5. Speed Control
+> Speed Control
 The sorting speed can be adjusted using a slider. This controls the delay between each step of the algorithm, providing a smooth visualization.
 
 # Technologies Used
