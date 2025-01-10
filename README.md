@@ -1,4 +1,4 @@
- # Sorting-Vizualizer
+ # Sorting-Visualizer
  This program is a Sorting Algorithm Visualizer developed using Python's Tkinter library. It provides an interactive graphical interface to understand and visualize how various sorting algorithms work step by step. Users can generate an array of random numbers, select a sorting algorithm, adjust the speed, and watch the sorting process unfold in real-time through animated bars representing the array elements.
 
  # Features of the Visualizer
